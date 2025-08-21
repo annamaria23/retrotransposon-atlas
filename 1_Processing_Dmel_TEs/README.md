@@ -1,0 +1,4 @@
+- Bergman lab
+- Brennecke lab chouto
+- Kofler lab Spoink, shellder (double trouble paper) and Souslik and MLE (preprint)
+- Kipferl paper for Bica and Chimpo
