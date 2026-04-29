@@ -1,6 +1,6 @@
 # Lifestyles of _Gypsy_-family transposons shape their regulatory mechanisms
 
-Code repository for "Lifestyles of _Gypsy_-family transposons shape their regulatory mechanisms" by Anna-Maria Papameletiou, Benjamin Czech Nicholson, [Susanne Bornelöv](https://github.com/susbo) and Gregory J Hannon. 
+Code repository for "Lifestyles of _Gypsy_-family transposons shape their regulatory mechanisms" by [Anna-Maria Papameletiou](https://github.com/annamaria23), Benjamin Czech Nicholson, [Susanne Bornelöv](https://github.com/susbo) and Gregory J Hannon. 
 
 
 ## Overview 
