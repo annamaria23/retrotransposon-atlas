@@ -25,6 +25,7 @@ bedtools getfasta -fi ${DIR}/genome.fa -bed ${DIR}/hmm_output.filt.bed -s >  ${D
 
 ```
 
+Lastly, the reciprocal best hit to the _D. melanogaster_ [reference](../1_Processing_Dmel_TEs/ALL_GYPSY_TES.fa) was obtained by running [run_mmseqs2.sh](./run_mmseqs2.sh)
 
 
 ## Refinement of annotated _POL_ sequences into full consensus sequences
