@@ -66,7 +66,7 @@ RepeatMasker -lib 12_consensus/results_all_TEs.fa -a -pa 1 -dir RM_TElib/ genome
 
 ```
 
-The results of the firts two steps are in [RM_EDTA_Results.csv](./RM_EDTA_Results.csv) and the results of the third step are in ...
+The results of the firts two steps are in [RM_EDTA_Results.csv](./RM_EDTA_Results.csv) and the results of the third step are in [file too big].
 
 
 
