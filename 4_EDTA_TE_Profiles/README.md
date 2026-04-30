@@ -1,4 +1,6 @@
-# General TE profiles of drosophilid species
+# RepeatModeller and EDTA runs on drosophilid genomes
+
+## General TE profiles of drosophilid species
 
 The following scripts were used to generate TE profiles for 248 drosophilid species. 
 
