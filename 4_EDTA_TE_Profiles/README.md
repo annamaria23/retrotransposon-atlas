@@ -41,5 +41,23 @@ if [[ ! -f "genome.fa.mod.EDTA.anno/genome.fa.mod.tbl" ]]; then
 fi
 
 
+```
+
+## RepeatModeller on _D. melanogaster_ TEs in each species 
+
+``` bash
+
+RepeatMasker -lib /mnt/scratchc/ghlab/annamaria/TE_annot_paper/250819_new_reference/ALL_GYPSY_TES.250826.fa -a -pa 1 -dir RM_Dmel/ genome.fa
 
 ```
+
+## RepeatModller on species' curated TE libraries (to obtain putative insertion locations)
+
+``` bash
+
+RepeatMasker -lib 12_consensus/results_all_TEs.fa -a -pa 1 -dir RM_TElib/ genome.fa
+
+```
+
+
+
