@@ -9,23 +9,24 @@ We present all the code used to annotate _D. melanogaster_-like _Gypsy_-family T
 ### Data pre-procssing
 
 <p align="center">
-<img src="/Figures/figure1.png" width="600"/>
+<img align="center" src="/Figures/figure1.png" width="550" hspace="20"/>
 </p>
 
 - Scripts to download and process the drosophilid genomes (from [Kim _et al_, 2021](https://elifesciences.org/articles/66405) and [Kim _et al_, 2024](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002697)) can be found [here](https://github.com/susbo/Drosophila_unistrand_clusters/tree/main/Genome_assemblies).
-- Scripts to select genomes used in this study and generate statistics (N50, BUSCO completeness) can be found [here](./3_Genome_Selection_and_Preparation)
-- Scripts to generate
- 
+- Scripts to select genomes used in this study and generate statistics (N50, BUSCO completeness) can be found [here](./3_Genome_Selection_and_Preparation). 
+- Scripts to generate [RepeatMasker](https://github.com/Dfam-consortium/RepeatMasker) and [EDTA](https://github.com/oushujun/EDTA) profiles of the genomes can be found [here](./4_EDTA_TE_Profiles). 
+
+ ### TE annotation pipeline
 
 <p align="center">
 <img src="/Figures/Pipeline.png" width="500"/>
 </p>
 
-- **A-D**: Scripts to generate hidden markov models (HMMs) for the POL, GAG, ENV and sORF2 open reading frames can 
+- **A-D**: Scripts to generate hidden markov models (HMMs) for the POL, GAG, ENV and sORF2 open reading frames can be found [here](./2_ORF_HMMs).
+- **E**: The script to scan the genomes for the HMMs can be found here.
+- **F**: The script to assign reciprocal best hits can be found here.
+- **G-H**: The scripts to generate high-quality consensus sequences can be found here (modfied from ..).
+
+### Downstream analysis 
 
 
-
-- _Drosophila melanogaster_ TE annotations : [Gypsy](1_Processing_Dmel_TEs/ALL_GYPSY_TES.fa) and all TEs
-- Scripts to create hidden markov models (HMMs) for the POL, GAG, ENV and sORF2 open reading frames
-- Scripts to generate TE profiles from drosophilid genomes using automated tools (RepeatMasker, EDTA).
-- Scripts to annotate TEs
