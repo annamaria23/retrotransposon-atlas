@@ -23,15 +23,10 @@ We present all the code used to annotate _D. melanogaster_-like _Gypsy_-family T
 </p>
 
 - **A-D**: Scripts to generate hidden markov models (HMMs) for the POL, GAG, ENV and sORF2 open reading frames can be found [here](./2_ORF_HMMs).
-- **E**: The script to scan the genomes for the HMMs can be found here.
-- **F**: The script to assign reciprocal best hits can be found here.
-- **G-H**: The scripts to generate high-quality consensus sequences can be found here (modfied from ..).
+- **E-H**: Scripts to identify _D. mel_-like _Gypsy_-family TEs in genomes and create high-quality consensus sequences can be found [here](./5_TE_annotation).
 
 ### Downstream analysis 
-- **Figure 1**
-- **Figure 2**
-- **Figure 3**
-- **Figure 4**
-- **Supplementary Figures**
+...
 
-
+## Citation
+...
