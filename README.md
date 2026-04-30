@@ -5,7 +5,7 @@ Code repository for "Lifestyles of _Gypsy_-family transposons shape their regula
 We present all the code used to annotate _D. melanogaster_-like _Gypsy_-family TEs across 248 drosophild genomes and downstream analysis.
 
 <p align="center">
-<img src="/Figures/Pipeline.png" width="400"/>
+<img src="/Figures/Pipeline.png" width="500"/>
 </p>
 
 ## Overview 
