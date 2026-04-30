@@ -49,7 +49,9 @@ To obtain the %nucleotides covered by _D. melanogaster_-like _Gypsy_ TEs, we ran
 
 ``` bash
 
+
 RepeatMasker -lib /mnt/scratchc/ghlab/annamaria/TE_annot_paper/250819_new_reference/ALL_GYPSY_TES.250826.fa -a -pa 1 -dir RM_Dmel/ genome.fa
+
 
 ```
 
