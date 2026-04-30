@@ -26,7 +26,7 @@ EDTA.pl --genome ${BASE}/genome.fa --step anno --anno 1 --threads 4
 
 ```
 
-EDTA was re-run on genomes for which contig naming prevented the porgramme from completing:
+[EDTA](https://github.com/oushujun/EDTA) was re-run on genomes for which contig naming prevented the porgramme from completing:
 
 
 ``` bash
@@ -43,7 +43,7 @@ fi
 
 ```
 
-## RepeatMasker on _D. melanogaster_ _Gypsy_TEs in each species 
+## RepeatMasker on _D. melanogaster_ _Gypsy_ TEs in each species 
 
 To obtain the %nucleotides covered by _D. melanogaster_-like _Gypsy_ TEs, we ran [RepeatMasker](https://github.com/Dfam-consortium/RepeatMasker) with the library being _D. mel_ _Gypsy_ library:
 
