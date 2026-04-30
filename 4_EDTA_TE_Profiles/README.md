@@ -55,6 +55,7 @@ RepeatMasker -lib /mnt/scratchc/ghlab/annamaria/TE_annot_paper/250819_new_refere
 
 ```
 
+
 ## RepeatModller on species' curated TE libraries
 
 To obtain the putative insertions locations of TE consensus sequences in each species, we ran [RepeatMasker](https://github.com/Dfam-consortium/RepeatMasker) with the library being the species' _Gypsy_ TE library:
@@ -64,6 +65,8 @@ To obtain the putative insertions locations of TE consensus sequences in each sp
 RepeatMasker -lib 12_consensus/results_all_TEs.fa -a -pa 1 -dir RM_TElib/ genome.fa
 
 ```
+
+The results of the firts two steps are in [RM_EDTA_Results.csv](./RM_EDTA_Results.csv) and the results of the third step are in ...
 
 
 
