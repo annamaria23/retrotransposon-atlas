@@ -12,7 +12,7 @@ We present all the code used to annotate _D. melanogaster_-like _Gypsy_-family T
 <img align="center" src="/Figures/figure1.png" width="550" hspace="20"/>
 </p>
 
-- Scripts to download and process the drosophilid genomes (from [Kim _et al_, 2021](https://elifesciences.org/articles/66405) and [Kim _et al_, 2024](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002697)) can be found [here](https://github.com/susbo/Drosophila_unistrand_clusters/tree/main/Genome_assemblies).
+- Scripts to download and process the drosophilid genomes (from [Kim _et al_, 2021](https://elifesciences.org/articles/66405) and [Kim _et al_, 2024](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002697)) is the same as [van Lopik _et al_, 2023](https://www.nature.com/articles/s41467-023-42787-1) and can be found [here](https://github.com/susbo/Drosophila_unistrand_clusters/tree/main/Genome_assemblies).
 - Scripts to select genomes used in this study and generate statistics (N50, BUSCO completeness) can be found [here](./3_Genome_Selection_and_Preparation). 
 - Scripts to generate [RepeatMasker](https://github.com/Dfam-consortium/RepeatMasker) and [EDTA](https://github.com/oushujun/EDTA) profiles of the genomes can be found [here](./4_EDTA_TE_Profiles). 
 
