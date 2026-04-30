@@ -28,5 +28,10 @@ We present all the code used to annotate _D. melanogaster_-like _Gypsy_-family T
 - **G-H**: The scripts to generate high-quality consensus sequences can be found here (modfied from ..).
 
 ### Downstream analysis 
+- **Figure 1**
+- **Figure 2**
+- **Figure 3**
+- **Figure 4**
+- **Supplementary Figures**
 
 
