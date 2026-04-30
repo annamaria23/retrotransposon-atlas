@@ -19,4 +19,6 @@ k8 /Users/papame01/calN50.js ${BASE}/genome.fa > ${BASE}/genome.calN50.stat
 
 busco -i ${FILE} -l drosophilidae_odb12 -o busco_out --out_path ${DIR} -m genome --download_path /mnt/scratchc/ghlab/annamaria/important_files/busco_downloads --cpu 8 --offline
 
+
+
 ```
