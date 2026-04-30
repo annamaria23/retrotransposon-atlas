@@ -2,7 +2,7 @@
 
 Code repository for "Lifestyles of _Gypsy_-family transposons shape their regulatory mechanisms" by [Anna-Maria Papameletiou](https://github.com/annamaria23), Benjamin Czech Nicholson, [Susanne Bornelöv](https://github.com/susbo) and Gregory J Hannon. 
 
-We present all the code used to annotate _D. melanogaster_-like _Gypsy_-family TEs across 248 drosophild genomes and downstream analysis.
+We present all the code used to annotate _D. melanogaster_-like _Gypsy_-family TEs across 248 drosophild genomes and associated downstream analysis.
 
 ## Overview 
 
