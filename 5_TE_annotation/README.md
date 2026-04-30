@@ -1,5 +1,10 @@
 # TE annotation pipeline
 
+The following pipeline applies the _POL_ hidden Markov model as a starting point and outputs the consensus sequence for each _D. mel_-like _Gypsy_ TE in a specific species.
+
+
+## Annotation of _Gypsy_-family TEs based on POL open reading frame sequences
+
 Searching for all instances of POL in a genome:
 
 ```bash
@@ -19,3 +24,12 @@ bedtools getfasta -fi ${DIR}/genome.fa -bed ${DIR}/hmm_output.filt.bed -s >  ${D
 
 
 ```
+
+
+
+## Refinement of annotated _POL_ sequences into full consensus sequences
+
+POL sequences were refined into full-length consensus sequences for each TE using a combination of tools, including [CIAlign](https://github.com/KatyBrown/CIAlign). The script for this is found in [3_make_consensus.sh](./3_make_consensus.sh). 
+
+
+## Results
