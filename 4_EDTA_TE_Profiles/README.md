@@ -4,7 +4,7 @@ The following scripts were used to generate TE profiles for 248 drosophilid spec
 
 To generate [RepeatModeler](https://github.com/Dfam-consortium/RepeatModeler) TE libraries:
 
-```bash
+``` bash
 
 BuildDatabase -name ${BASE}/RM_db/genome_db ${BASE}/genome.fa
 mkdir -p ${BASE}/RM_res && cd ${BASE}/RM_res
