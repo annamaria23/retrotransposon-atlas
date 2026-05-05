@@ -26,7 +26,7 @@ EDTA.pl --genome ${BASE}/genome.fa --step anno --anno 1 --threads 4
 
 ```
 
-[EDTA](https://github.com/oushujun/EDTA) was re-run on genomes for which contig naming prevented the porgramme from completing:
+[EDTA](https://github.com/oushujun/EDTA) was re-run on genomes for which contig naming prevented the programme from completing:
 
 
 ``` bash
