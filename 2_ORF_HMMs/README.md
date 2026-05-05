@@ -1,7 +1,7 @@
 ## Obtaining HMM profiles from putative _Gypsy_ TEs
 
 Input required:
-- Predicted TE libraries for each genome assembly. We used the 101 drosophilid genomes (d101g, [B.Y. Kim et al., 2020])https://www.biorxiv.org/content/10.1101/2020.12.14.422775v1))
+- Predicted TE libraries for each genome assembly. We used the 101 drosophilid genomes (d101g, [B.Y. Kim et al., 2020](https://www.biorxiv.org/content/10.1101/2020.12.14.422775v1))
 - GAG, POL and ENV peptide databases
 
 #### 1. Obtaining TEs and processing them 
