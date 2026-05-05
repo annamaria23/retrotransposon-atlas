@@ -24,8 +24,3 @@ busco -i ${FILE} -l drosophilidae_odb12 -o busco_out --out_path ${DIR} -m genome
 
 The resulting statistics for genomes used in this study can be found in [Species_Genome_Stats.csv](./Species_Genome_Stats.csv).
 
-
-``` bash
-cat Species_Genome_Stats.csv | awk -v FS="," '$4<3000 && $3>1000000' | wc -l
-249
-```
