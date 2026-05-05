@@ -1,6 +1,6 @@
 # Genome selection and preparation 
 
-Drosophilid were selected according to the following criteria: NN > 1,000,000 and N50 < 3,000. In cases where the same species had multiple genomes that passed the threshold, the highest quality was selected.
+Drosophilid genomes were selected according to the following criteria: NN > 1,000,000 and N50 < 3,000. In cases where the same species had multiple genomes that passed the threshold, the highest quality one was selected.
 
 The [calN50](https://github.com/lh3/calN50) tool was used to obtain AUC, N50, N80 and NN metrics for each genome:
 
