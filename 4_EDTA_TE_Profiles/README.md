@@ -43,7 +43,7 @@ fi
 
 ```
 
-## RepeatMasker on _D. melanogaster_ _Gypsy_ TEs in each species 
+## RepeatMasker mapping _D. melanogaster_ _Gypsy_ TEs in each species 
 
 To obtain the %nucleotides covered by _D. melanogaster_-like _Gypsy_ TEs, we ran [RepeatMasker](https://github.com/Dfam-consortium/RepeatMasker) with the library being _D. mel_ _Gypsy_ library:
 
@@ -56,7 +56,7 @@ RepeatMasker -lib /mnt/scratchc/ghlab/annamaria/TE_annot_paper/250819_new_refere
 ```
 
 
-## RepeatModller on species' curated TE libraries
+## RepeatMasker mapping each species' curated TE libraries
 
 To obtain the putative insertions locations of TE consensus sequences in each species, we ran [RepeatMasker](https://github.com/Dfam-consortium/RepeatMasker) with the library being the species' _Gypsy_ TE library:
 
@@ -66,7 +66,7 @@ RepeatMasker -lib 12_consensus/results_all_TEs.fa -a -pa 1 -dir RM_TElib/ genome
 
 ```
 
-The results of the firts two steps are in [RM_EDTA_Results.csv](./RM_EDTA_Results.csv) and the results of the third step are in [file too big].
+The results of the first two steps are in [RM_EDTA_Results.csv](./RM_EDTA_Results.csv) and the results of the third step are in [file too big].
 
 
 
