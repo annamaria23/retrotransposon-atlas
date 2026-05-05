@@ -1,6 +1,6 @@
-# Generating _D. melanogaster_ _Gypsy_-family TE consensus sequences and sequnce annotations
+# Generating _D. melanogaster_ _Gypsy_-family TE consensus sequences and sequence annotations
 
-Consnsus sequences for the _D. melanogaster_ _Gypsy_-family transposable elements were obtained from:
+Consensus sequences for 57 _D. melanogaster_ _Gypsy_-family transposable elements were obtained from:
 
 - Most _D. mel_ TE annotations are from the [Bergman lab](https://github.com/bergmanlab/drosophila-transposons)
 - The _chouto_ sequence was obtained from [Senti _et al_, 2025](https://link.springer.com/article/10.1038/s44318-025-00471-8)
