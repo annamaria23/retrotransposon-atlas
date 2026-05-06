@@ -4,7 +4,7 @@ This directory contains the scripts for creating, where relevant,the data files 
 
 | **Figure** | **Data** | **Script** |
 | :--- | :----: | :---: |
-| **S1** | NA | NA |
+| **S1** | The file containing stats on the genomes used in **Figure S1A** can be found at [Species_Genome_Stats.csv](../3_Genome_Selection_and_Preparation/Species_Genome_Stats.csv) and the geographies of the species were taken from [Pianezza _et al,_ 2025](https://github.com/rpianezza/Drosophilids-TE-biogeography/blob/main/D.melanogaster/tables/supplementary_file1.txt) | NA |
 | **S2** | NA | NA |
 | **S5** | [LTR_similarity.txt](./LTR_similarity.txt) contains the file outputted as a result of _blast_-ing the front and back LTRs of a full-lenght TE against each other | [LTR_similarity_plot.R](./LTR_similarity_plot.R) contains the script to generate **Figure S5** |
 | **S10-S14** | NA | [TE_insertions_and_locations.R](TE_insertions_and_locations.R) contains the script to generate the plots relating to insertion counts of TEs in each species in **Figures S10-S14** |
