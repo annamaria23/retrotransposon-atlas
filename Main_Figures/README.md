@@ -7,7 +7,7 @@ This directory contains the scripts for creating and, where relevant,the data fi
 | **1** | The data used in **Figure 1** is the output of the EDTA scripts and can be found at [RM_EDTA_Results.csv](../4_EDTA_TE_Profiles/RM_EDTA_Results.csv) | The script for generating phylogenetic trees can be found in  [Phylogenetic_Trees1.R](Phylogenetic_Trees1.R). The script for generating boxplots can be found at [...] |
 | **2** | The data used in **Figure 2** is the output of [...] | The script for generating phylogenetic trees can be found in  [TE_groups_plot.R](TE_groups_plot.R) |
 | **3** | [...] | [...] |
-| **4** | [...] | [...] |
+| **4** | [...] | The script to run the GLMM model used in **Figure 4** and to visualise outputs can be found in [GLMM_with_TFs.R](GLMM_with_TFs.R) |
 
 
 
