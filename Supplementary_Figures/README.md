@@ -14,8 +14,8 @@ This directory contains the scripts for creating, where relevant,the data files 
 |**S9** | NA | NA |
 | **S10-S14** | NA | [TE_insertions_and_locations.R](TE_insertions_and_locations.R) contains the script to generate the plots relating to insertion counts of TEs in each species in **Figures S10-S14** |
 |**S15** | NA | NA |
-|**S17** | NA | NA |
-|**S7-S18** | NA | NA |
+|**S16** | NA | NA |
+|**S17-S18** | NA | NA |
 | **S19** | [ALL_sw_scores.tsv](ALL_sw_scores.tsv) contains a file with the SW scores of identified TFs in species compared to the ones in _D. melanogaster_| [TF_tree.R](TF_tree.R) contains the script to generate the phylogenetic tree in **Figure S19** |
 
 
