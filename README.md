@@ -27,6 +27,7 @@ We present all the code used to annotate _D. melanogaster_-like _Gypsy_-family T
 
 ### Downstream analysis 
 
+- Data and scripts used to generate the main figures in the paper can be found in [Main_Figures](Main_Figures].
 - Data and scripts used to generate the spplementary figures in the paper can be found in [Supplementary_Figures](./Supplementary_Figures).
 
 
