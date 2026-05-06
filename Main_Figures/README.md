@@ -4,5 +4,6 @@ This directory contains the scripts for creating and, where relevant,the data fi
 
 | **Figure** | **Data** | **Script** |
 | :--- | :----: | :---: |
-| **1** | NA | The script for generating phylogenetic trees can be found in  [R_plot.R](R_plot.R)|
+| **1** | NA | The script for generating phylogenetic trees can be found in  [Phylogenetic_Trees1.R](Phylogenetic_Trees1.R)|
+
 
