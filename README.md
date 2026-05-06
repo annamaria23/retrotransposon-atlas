@@ -26,7 +26,9 @@ We present all the code used to annotate _D. melanogaster_-like _Gypsy_-family T
 - **E-H**: Scripts to identify _D. mel_-like _Gypsy_-family TEs in genomes and create high-quality consensus sequences can be found [here](./5_TE_annotation).
 
 ### Downstream analysis 
-...
+
+- Data and scripts used to generate the spplementary figures in the paper can be found in [Supplementary_Figures](./Supplementary_Figures).
+
 
 ## Citation
 ...
