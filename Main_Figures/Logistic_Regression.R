@@ -7,6 +7,9 @@ library(lme4)
 library(reshape2)
 library(proxy)
 
+
+#### Data Preparation ### 
+
 sc_expr <- read_delim("FlyCellAtlas_slimmed_gene_expression_fb_2025_04.fmt.tsv") # FCA gene expression, downloaded from FlyBase
 fly_tfs <- read_delim("flymine_results_2025-10-22T13-50-21.tsv", col_names = c("geneID", "gene_Symbol", "geneFbID", "Dmel")) # TFs in D. melanogaster, downloaded from FlyMine
 
@@ -64,6 +67,9 @@ data_for_glmm <- df_wide_motifs %>%
   #mutate(te_id = factor(str_remove(sequence_name, "^[_^]+")))  %>% 
   left_join(df_outcome, by = "sequence_name") %>%
   select(-sequence_name)
+
+
+#### GLMM with TEs as random variables ### 
 
 model <- glmer(y_outcome ~ . - te_id + (1 | te_id), data = data_for_glmm, family = binomial(link = "logit"),
                control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 100000)))
