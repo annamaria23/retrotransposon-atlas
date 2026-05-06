@@ -1,6 +1,12 @@
-# Data and scripts for creating most of the supplementary figures
+# Data and scripts for the supplementary figures
 
-- Figure S5: data from LTR_similarity.txt, code in LTR_similarity_plot.R
+This directory contains the scripts for creating, where relevant,the data files and scripts for creating the supplementary figures in the manuscript. 
+
+| Figure | Data | Script |
+| :--- | :----: | ---: |
+| **Figure S1** | NA | NA |
+| **Figure S2** | NA | NA |
+
 
 
 
