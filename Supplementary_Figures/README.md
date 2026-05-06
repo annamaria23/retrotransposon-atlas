@@ -1,6 +1,6 @@
 # Data and scripts for the supplementary figures
 
-This directory contains the scripts for creating, where relevant,the data files and scripts for creating the supplementary figures in the manuscript. 
+This directory contains the scripts for creating, where relevant,the data files and scripts for creating the supplementary figures in the manuscript, summarised in the table below.
 
 | **Figure** | **Data** | **Script** |
 | :--- | :----: | :---: |
