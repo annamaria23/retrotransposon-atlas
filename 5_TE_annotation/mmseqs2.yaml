@@ -1,0 +1,35 @@
+name: mmseqs2
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - aria2=1.37.0=hbc8128a_2
+  - bedtools=2.31.1=h13024bc_3
+  - bzip2=1.0.8=h4bc722e_7
+  - c-ares=1.34.5=hb9d3cd8_0
+  - ca-certificates=2025.8.3=hbd8a1cb_0
+  - gawk=5.3.1=hcd3d067_0
+  - gmp=6.3.0=hac33072_2
+  - libasprintf=0.25.1=h3f43e3d_1
+  - libgcc=15.1.0=h767d61c_4
+  - libgcc-ng=15.1.0=h69a702a_4
+  - libgettextpo=0.25.1=h3f43e3d_1
+  - libgomp=15.1.0=h767d61c_4
+  - libiconv=1.18=h3b78370_2
+  - liblzma=5.8.1=hb9d3cd8_2
+  - libsqlite=3.50.4=h0c1763c_0
+  - libssh2=1.11.1=hcf80075_0
+  - libstdcxx=15.1.0=h8f9b012_4
+  - libstdcxx-ng=15.1.0=h4852527_4
+  - libxml2=2.13.8=h2cb61b6_1
+  - libzlib=1.3.1=hb9d3cd8_2
+  - mmseqs2=18.8cc5c=hd6d6fdc_0
+  - mpfr=4.2.1=h90cbb55_3
+  - ncurses=6.5=h2d0b736_3
+  - openssl=3.5.2=h26f9b46_0
+  - readline=8.2=h8c095d6_2
+  - zlib=1.3.1=hb9d3cd8_2
+prefix: /Users/papame01/miniconda3/envs/mmseqs2
