@@ -1,4 +1,4 @@
-# Scripts to generate the main figures
+# Data and scripts for the main figures
 
 This directory contains the scripts for creating and, where relevant,the data files for creating the figures in the manuscript, summarised in the table below.
 
