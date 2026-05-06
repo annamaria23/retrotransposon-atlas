@@ -9,7 +9,7 @@ This directory contains the scripts for creating, where relevant,the data files 
 | **S3** | Files containing the percentage of the genome covered by each TE superfamily per species can be found at [RM_EDTA_Results.csv](../4_EDTA_TE_Profiles/RM_EDTA_Results.csv) and genome sizes can be found at [Species_Genome_Stats.csv](../3_Genome_Selection_and_Preparation/Species_Genome_Stats.csv) | NA |
 | **S5** | [LTR_similarity.txt](./LTR_similarity.txt) contains the file outputted as a result of _blast_-ing the front and back LTRs of a full-lenght TE against each other | [LTR_similarity_plot.R](./LTR_similarity_plot.R) contains the script to generate **Figure S5** |
 |**S6** | NA | NA |
-|**S7** | NA | NA |
+|**S7** | NA | [piRNA_lengths.R](piRNA_lengths.R) contains the script to create length plots and [piRNA_map.R](piRNA_map.R) contains the script to create logo plots for the anti-sense mapping piRNAs |
 |**S8** | NA | NA |
 |**S9** | NA | NA |
 | **S10-S14** | NA | [TE_insertions_and_locations.R](TE_insertions_and_locations.R) contains the script to generate the plots relating to insertion counts of TEs in each species in **Figures S10-S14** |
