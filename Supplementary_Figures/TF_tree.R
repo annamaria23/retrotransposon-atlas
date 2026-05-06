@@ -6,7 +6,6 @@ library(treeio)
 library(paletteer)
 library(ggtreeExtra)
 library(forcats)
-#library(ggforce)
 library(ggnewscale)
 library(ape)
 library(stringr)
@@ -77,66 +76,6 @@ tips_to_drop <- c(setdiff(tree@phylo$tip.label, SW_scores$SpeciesName), "D.pache
 newtree <- drop.tip(tree@phylo, tips_to_drop)
 p_tree <- ggtree(newtree, branch.length = "branch.length", layout = "fan", open.angle=90) + theme_tree()
 p_tree <- rotate_tree(p_tree, 90)
-
-# Data
-'''
-p_tree +
-  geom_fruit(
-    data = busco_scores,
-    geom = geom_tile,
-    mapping = aes(y = SpeciesName, x = "", fill = score_bin),
-    offset = 0.1, pwidth = 4,
-    axis.params = list(axis = "x", text.size = 3 , text.angle = 0, hjust=-0.1))+
-  scale_fill_manual(values = c(">95"="#dadad6", "85-95"="#9f9f9d", "<85"="#4A4A48"), name = "BUSCO completeness %")+
-  new_scale_fill() + 
-  geom_fruit(
-    data = tj_sw,
-    geom = geom_tile,
-    mapping = aes(y = SpeciesName, x = TF, fill = as.numeric(SW)),
-    offset = 0.1, pwidth = 4,
-    axis.params = list(axis = "x", text.size = 3 , text.angle = 0, hjust=-0.1))+
-  scale_fill_gradient(low = "#bed0ff", high = "#00299a", name = "tj SW score", na.value="white") + 
-  new_scale_fill() + 
-  geom_fruit(
-    data = CHES_sw,
-    geom = geom_tile,
-    mapping = aes(y = SpeciesName, x = TF, fill = as.numeric(SW)),
-    offset = 0.1, pwidth = 4,
-    axis.params = list(axis = "x", text.size = 3 , text.angle = 0, hjust=-0.1))+
-  scale_fill_gradient(low = "#bed0ff", high = "#00299a", name = "CHES-1-like SW score", na.value="white") + 
-  new_scale_fill() + 
-    geom_fruit(
-    data = CrebB_sw,
-    geom = geom_tile,
-    mapping = aes(y = SpeciesName, x = TF, fill = as.numeric(SW)),
-    offset = 0.1, pwidth = 4,
-    axis.params = list(axis = "x", text.size = 3 , text.angle = 0, hjust=-0.1)) +
-    scale_fill_gradient(low = "#ffb5db", high = "#6a0137", name = "CrebB SW score", na.value="white")+
-  new_scale_fill() + 
-    geom_fruit(
-    data = Cf2_sw,
-    geom = geom_tile,
-    mapping = aes(y = SpeciesName, x = TF, fill = as.numeric(SW)),
-    offset = 0.1, pwidth = 4,
-    axis.params = list(axis = "x", text.size = 3 , text.angle = 0, hjust=-0.1))+
-    scale_fill_gradient(low = "#ffb5db", high = "#6a0137", name = "Cf2 SW score", na.value="white")+
-  new_scale_fill() + 
-    geom_fruit(
-    data = GATAd_sw,
-    geom = geom_tile,
-    mapping = aes(y = SpeciesName, x = TF, fill = as.numeric(SW)),
-    offset = 0.1, pwidth = 4,
-    axis.params = list(axis = "x", text.size = 3 , text.angle = 0, hjust=-0.1))+
-    scale_fill_gradient(low = "#ffb5db", high = "#6a0137", name = "GATAd TFs", na.value="white")+
-  new_scale_fill() + 
-    geom_fruit(
-    data = BEAF_sw,
-    geom = geom_tile,
-    mapping = aes(y = SpeciesName, x = TF, fill = as.numeric(SW)),
-    offset = 0.1, pwidth = 4,
-    axis.params = list(axis = "x", text.size = 3 , text.angle = 0, hjust=-0.1))+
-    scale_fill_gradient(low = "#ffb5db", high = "#6a0137", name = "BEAF-32 TFs", na.value="white")
-'''
 
 p_tree$data <- p_tree$data %>% mutate(dmel = label == "D.melanogaster")
 
