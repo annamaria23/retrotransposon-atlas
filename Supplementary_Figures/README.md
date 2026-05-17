@@ -13,7 +13,7 @@ This directory contains the scripts for creating, where relevant,the data files 
 |**S8** | NA | NA |
 |**S9** | NA | NA |
 | **S10-S14** | NA | [TE_insertions_and_locations.R](TE_insertions_and_locations.R) contains the script to generate the plots relating to insertion counts of TEs in each species in **Figures S10-S14** |
-|**S15** | TE _POL_ trees can be found at [Resources/TE_POL_trees](../Resources/TE_POL_trees) | NA |
+|**S15** | TE _POL_ trees can be found at [Resources/TE_POL_trees](../Resources/TE_POL_trees) | The script to make "cophylo" trees can be found at  [cophylo_trees.R](cophylo_trees.R) |
 |**S16** | Putative HTT results can be found at [all_HTT_TEs.csv](./all_HTT_TEs.csv)| A Python script to test for incongruences between phylogenetic trees can be found at [tree_HTT.py](./tree_HTT.py) |
 |**S17-S18** | FIMO outputs can be found at [Main_Figures/all_TFs_LTRs_fimo.tsv](../Main_Figures/all_TFs_LTRs_fimo.tsv) | Analysis scripts can be found at [Main_Figures/GLMM_with_TFs.R](../Main_Figures/GLMM_with_TFs.R)  |
 | **S19** | [ALL_sw_scores.tsv](ALL_sw_scores.tsv) contains a file with the SW scores of identified TFs in species compared to the ones in _D. melanogaster_| [TF_tree.R](TF_tree.R) contains the script to generate the phylogenetic tree in **Figure S19** |
