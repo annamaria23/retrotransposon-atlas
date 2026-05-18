@@ -1,4 +1,4 @@
-# TE sequences Processing
+# TE sequences processing: phylogenetic tree building and gtf file creation
 
 ## Obtaining gtf files with ORF locations
 
@@ -21,7 +21,7 @@ for te in ${TEs}; do
 	# General extraction of ORFs
 	conda activate hmmer;
 	seqkit grep -r -p "_${te}\$" ../results/by_TE_FINAL/annotated_TEs.fa > ../results/by_TE_FINAL/${te}/${te}.fa;
-	bash 251019_getgtfs_final.sh /mnt/scratche/slow/ghlab/annamaria/drosoTEs/blast_automation_attempt/results/by_TE_FINAL/${te}/${te}.fa /mnt/scratche/slow/ghlab/annamaria/drosoTEs/blast_automation_attempt/results/by_TE_FINAL/${te};
+	bash getgtfs.sh /mnt/scratche/slow/ghlab/annamaria/drosoTEs/blast_automation_attempt/results/by_TE_FINAL/${te}/${te}.fa /mnt/scratche/slow/ghlab/annamaria/drosoTEs/blast_automation_attempt/results/by_TE_FINAL/${te};
 	conda deactivate;
 
 	#Tree building based on POL
