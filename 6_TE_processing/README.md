@@ -37,3 +37,49 @@ done
 
 
 ```
+
+
+## Data preparation for dN/dS calculations
+
+TE ORFs were processed for dN/dS calculations for the _POL_, _ENV_, and _sORF2_ open reading frames using the following script:
+
+```bash
+
+conda activate phylo
+
+FILENAME="$(basename "$1")"
+FILEPATH="$(dirname "$1")"
+ORF=${2}
+
+# minsize of ORF, depending on ORF we are using
+case "${ORF}" in
+    "POL")
+        MINSIZE=500
+        ;;
+    "ENV")
+        MINSIZE=100
+        ;;
+    "sORF2")
+        MINSIZE=50
+        ;;
+esac
+
+echo ${ORF}
+echo ${MINSIZE}
+
+mkdir -p ${FILEPATH}/${FILENAME}.dnds
+
+awk '/^>/ {sub(/:.*/, "", $0)} {print}' ${1} > ${FILEPATH}/${FILENAME}.dnds/${ORF}.rename.fa
+getorf -sequence ${FILEPATH}/${FILENAME}.dnds/${ORF}.rename.fa -outseq ${FILEPATH}/${FILENAME}.dnds/${ORF}.nt.fa -find 3 -minsize ${MINSIZE}
+
+awk '/^>/ {sub(/ .*/, "", $0)} {print}' ${FILEPATH}/${FILENAME}.dnds/${ORF}.nt.fa > ${FILEPATH}/${FILENAME}.dnds/${ORF}.nt.final.fa
+seqkit rmdup -n ${FILEPATH}/${FILENAME}.dnds/${ORF}.nt.final.fa > ${FILEPATH}/${FILENAME}.dnds/${ORF}.nt.final.final.fa
+transeq -frame 1 -sequence ${FILEPATH}/${FILENAME}.dnds/${ORF}.nt.final.final.fa -outseq ${FILEPATH}/${FILENAME}.dnds/aa.fa >/dev/null
+mafft --thread 16 ${FILEPATH}/${FILENAME}.dnds/aa.fa > ${FILEPATH}/${FILENAME}.dnds/aa.fa.maf 2>/dev/null
+pal2nal.pl ${FILEPATH}/${FILENAME}.dnds/aa.fa.maf ${FILEPATH}/${FILENAME}.dnds/${ORF}.nt.final.final.fa -output paml > ${FILEPATH}/${FILENAME}.dnds/aa.maf.phy
+iqtree2 -s ${FILEPATH}/${FILENAME}.dnds/aa.fa.maf -m MFP -redo 
+
+cd ${FILEPATH}/${FILENAME}.dnds
+cp *.treefile ${FILENAME}tree.nwk
+
+```
