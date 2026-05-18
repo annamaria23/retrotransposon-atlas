@@ -35,4 +35,4 @@ POL sequences were refined into full-length consensus sequences for each TE usin
 
 ## Results
 
-Results, including TE consensus sequence fasta files and downstream analyses can be found in (Resources)[../Resources]
+Results, including TE consensus sequence fasta files and downstream analyses can be found in [Resources](../Resources).
