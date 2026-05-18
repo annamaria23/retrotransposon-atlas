@@ -31,5 +31,5 @@ We present all the code used to annotate _D. melanogaster_-like _Gypsy_-family T
 - Data and scripts used to generate the spplementary figures in the paper can be found in [Supplementary_Figures](./Supplementary_Figures).
 
 
-## Citating this work
+## Citing this work
 ...
