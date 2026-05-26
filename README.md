@@ -34,6 +34,7 @@ We present all the code used to annotate _D. melanogaster_-like _Gypsy_-family T
 ## Citing this work
 
 If you use these scripts, pipelines or data please cite our preprint: 
-Lifestyles of Gypsy-family transposons shape their regulatory mechanisms
+
+**Lifestyles of Gypsy-family transposons shape their regulatory mechanisms**
 Anna-Maria Papameletiou, Benjamin Czech Nicholson, Susanne Bornelöv, Gregory J. Hannon
-bioRxiv 2026.05.19.726053; doi: https://doi.org/10.64898/2026.05.19.726053
+_bioRxiv_ 2026.05.19.726053; doi: https://doi.org/10.64898/2026.05.19.726053
